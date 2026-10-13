@@ -1,0 +1,7 @@
+.prezzi li span{
+    color: greenyellow;
+}
+
+.btn-animato:hover{
+    transform:scale(1.1);
+}
