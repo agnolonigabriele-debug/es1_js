@@ -2,6 +2,15 @@
     color: greenyellow;
 }
 
-.btn-animato:hover{
-    transform:scale(1.1);
+.btn-animato {
+    transition: all 0.3s ease;
+}
+
+.btn-animato:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 0 10px white;
+}
+
+.btn-animato:active {
+    transform: scale(0.95);
 }
